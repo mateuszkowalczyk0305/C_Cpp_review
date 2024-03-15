@@ -1,4 +1,4 @@
-# Zajęcia z programowania z języka C/C++.
+# Zajęcia z programowania z języka C/C++ - powtórka.
 ## 📌 Lab 1:
 Zajęcia organizacyjne.
 ## 📌 Lab 2:
