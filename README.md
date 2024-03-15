@@ -1,7 +1,7 @@
 # Zajęcia z programowania z języka C/C++.
-## Lab 1:
+## 📌 Lab 1:
 Zajęcia organizacyjne.
-## Lab 2:
+## 📌 Lab 2:
 Struktura aplikacji w paradygmacie programowania proceduralnego.
 ### Zadanie 1.
 Zbuduj i uruchom aplikację, która wypisze na konsolę twoje imię i nazwisko. Korzystając z edytora tekstu porównaj kod źródłowy aplikacji (main.c) z kodem źródłowym asemblera (main.s).
@@ -9,7 +9,7 @@ Zbuduj i uruchom aplikację, która wypisze na konsolę twoje imię i nazwisko. 
 Utwórz plik nagłówkowy defs.h zawierający deklaracje dwóch zmiennych typu zmiennoprzecinkowego pojedynczej precyzji i funkcji wykonującej dodawanie dwóch liczb zmiennoprzecinkowych (float add(float x, float y)). Utwórz odpowiadający mu plik źródłowy defs.c, zawierający odpowiednie definicje tych zmiennych i funkcji. Wywołaj funkcję add() wewnątrz funkcji main(), wykorzystując dwie zdefiniowane wcześniej zmienne i wypisz wynik dodawania na konsolę.
 ### Zadanie 3.
 Sprawdź i wypisz na konsolę rozmiar różnych podstawowych typów zmiennych wykorzystując operator sizeof .
-## Lab 3:
+## 📌 Lab 3:
 Operacje na zmiennych i instrukcje sterujące.
 ### Zadanie 1.
 Napisz funkcję void zeros(float a, float b, float c), która oblicza, a następnie wyświetla na ekranie miejsca zerowe funkcji kwadratowej f(x) = ax2+bx+c w dziedzinie liczb rzeczywistych, na podstawie zadanych współczynników a, b, c. Deklaracja funkcji została umieszczona w pliku zeros.h. Umieść definicję funkcji w pliku zeros.c. Zaimplementowaną funkcję wywołaj w funkcji main() i zweryfikuj poprawność jej działania. Podpowiedź: pierwiastek kwadratowy można obliczyć wykorzystując funkcję sqrt(), zdeklarowaną w pliku nagłówkowym math.h
