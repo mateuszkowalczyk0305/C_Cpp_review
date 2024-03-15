@@ -8,7 +8,6 @@ void decimalToBinary (unsigned int number)
 	// zmienna dotycząca ilości znaków liczby binarnej:
 	int i = 0;
 	
-	
 	// pętla dzielenia przez dwa z resztą. Reszta wpisywana do tablicy tabBin znak po znaku:
 	while (number > 0)
 	{
@@ -18,7 +17,7 @@ void decimalToBinary (unsigned int number)
 	}
 	
 	// wyświetlenie reprezentacji binarnej:
-	printf("Reprezentacja binarna liczby: %d", number);
+	printf("Reprezentacja binarna liczby: ");
 	
 	for (int j = i - 1; j >= 0; j--)
 		printf("%d", tabBin[j]);

@@ -1,3 +1,6 @@
-# pragma once
+#pragma once
 
-int gcd (unsigned int x, unsigned int y)
+#include <stdbool.h>
+
+int gcd(unsigned int x, unsigned int y);
+bool isPrime(unsigned int x);
