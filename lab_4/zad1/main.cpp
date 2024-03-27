@@ -4,7 +4,7 @@
 int main()
 {
 	int liczba = 345;
-	double nowaLiczba = 1.23456789*3.1000000000000000004378587345932052;
+	double nowaLiczba = 1.23456789*3.10000000000000000043785873459320526437658246598729725784378279;
 	
 	
 	std::cout << "Liczba w reprezentacji szesnastkowej:";
@@ -21,8 +21,9 @@ int main()
 	std::cout << liczba << std::endl;
 	
 	
-	std::cout << "Liczba zmiennoprzecinkowa z precyzja 10 cyfr: \n";
-	std::cout.precision(10); // ustawienie prezyzji
+	std::cout << "Liczba zmiennoprzecinkowa z precyzja 10 cyfr po przecinku: \n";
+	std::cout << std::fixed;
+	std::cout.precision(11); // ustawienie prezyzji
 	std::cout << nowaLiczba;
 	return 0;
 }

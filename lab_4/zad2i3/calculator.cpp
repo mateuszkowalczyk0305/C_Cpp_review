@@ -25,6 +25,8 @@ float multiply(float x, float y){
 float divide(float x, float y){
 	if(y==0)
 		quitWithError();
+	else if (x==0)
+		quitWithError();
 	else
 		return x / y;
 }
